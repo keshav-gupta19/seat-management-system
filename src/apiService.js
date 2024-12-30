@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://seat-management-backend.onrender.com";
 
 export const fetchSeats = async () => {
   const res = await axios.get(`${BASE_URL}/seats`);
